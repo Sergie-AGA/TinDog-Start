@@ -3,6 +3,7 @@
 body {
     font-family: "Montserrat";
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 
@@ -32,6 +33,18 @@ p {
     font-size: 3rem;
     line-height: 1.5;
 }
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 
 /* Navigation Bar */
 
@@ -68,8 +81,6 @@ p {
 }
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
     text-align: left;
 }
 
@@ -83,7 +94,6 @@ p {
 /* Features Section */
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -160,19 +170,12 @@ p {
 /* CTA */
 
 #cta {
-    background-color: #ff4c68;
     padding: 2% 0 1%;  
-    
-    color: #fff;
 }
 
 
 
 /* Footer */
-
-#footer {
-    background-color: #fff;
-}
 
 #footer > i {
     margin: 20px 10px;
